@@ -1,4 +1,6 @@
 FROM resin/armv7hf-debian:stretch
+#FROM armv7/armhf-ubuntu:16.04
+COPY ./qemu-arm-static /usr/bin/qemu-arm-static
 
 MAINTAINER Rolf Larsen
 
